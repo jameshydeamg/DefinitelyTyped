@@ -86,7 +86,9 @@ declare namespace JQuery.Jcrop {
     animateTo: (selection: [number, number, number, number]) => void;
     /** Release current selection */
     release: () => void;
-
+    /** Set new image **/
+    setImage: (src: string) => void;
+    
     /** Query current selection values (true size) */
     tellSelect: () => SelectionInfo;
     /** Query current selection values (interface)  */
